@@ -4,7 +4,7 @@ import emojiJson from "./emojiList";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         {emojiJson.map(emoji => <div key={emoji.title}>{emoji.symbol}</div>)}
       </div>
     );
